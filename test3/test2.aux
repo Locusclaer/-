@@ -1,0 +1,49 @@
+\relax 
+\@writefile{toc}{\contentsline {section}{\numberline {1}实验要求}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.1}学会使用Shell工具来进行脚本编写和运行}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2}学会利用Vim编辑器来进行更高效的文本编辑和数据整理}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.3}完成至少4个课堂练习与20个与Shell和Vim有关的实例}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}实验内容}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Shell的学习}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.1}Shell 是一个命令行界面和脚本语言，用于与操作系统交互。它充当用户和系统之间的接口，解释和执行命令，并允许编写脚本以自动化任务。常见的Shell包括Bash、sh、zsh、csh 和ksh，它们各自提供不同的功能和特性，以满足各种用户需求。}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.2}Shell主要具有以下功能：\\1.命令解释器：Shell 解释并执行用户输入的命令。这些命令可以是系统内置的，也可以是外部程序或脚本。\\2.脚本语言：Shell 提供了一种编程环境，允许用户编写脚本来自动化各种任务，如文件操作、系统管理、批处理等。\\3.用户界面：Shell 可以提供命令行界面（CLI），通过它，用户可以直接输入命令和参数来控制计算机系统。}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.1.3}常见的Shell类型包括：\\1.Bash：这是最常用的 Linux 和macOS的默认Shell，兼容BourneShell（sh），并加入了许多增强特性。在本次实验中，我主要使用Git（bush）来进行Shell指令和运用的学习。\\2.sh：这是最早的Unix Shell，由Steve Bourne开发。\\3.zsh：提供了比Bash更强大的功能和更多的扩展，通常用于高级用户和开发者。\\4.csh ：它的语法与 C 语言类似，主要用于一些特定的 Unix 系统。\\5.ksh：由 David Korn 开发，融合了 sh 和 csh 的特性，并提供了额外的功能。}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Vim编辑器的学习}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1}Vim是一款高度可定制的文本编辑器，基于早期的 Vi 编辑器，提供了许多增强功能。它主要用于编写和编辑源代码，但也可以用于一般的文本编辑。}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.2}Vim拥有如下特点：\\1.模式编辑：Vim 采用模式化编辑方式，主要有三种模式：普通模式（用于导航和操作文本）、插入模式（用于输入文本）和命令模式（用于执行命令）。这种模式化设计使得编辑过程更高效。\\2.强大的快捷键和命令：Vim 提供了丰富的快捷键和命令，支持复杂的文本操作和导航，提高编辑效率。\\3.可定制性：用户可以通过配置文件（如 .vimrc）定制 Vim 的行为和外观，安装插件以扩展其功能。\\4.跨平台：Vim 支持多种操作系统，包括 Unix/Linux、macOS 和 Windows，使得它在不同平台上的使用都很便利。}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}使用Vim和awk进行数据整理}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.1}使用awk进行数据整理}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.2}使用Vim进行数据整理}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.3}结合使用awk和Viim}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}课堂练习}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.1}阅读 man ls ，然后使用 ls 命令进行如下操作： \\1. 所有文件（包括隐藏文件） \\2. 文件打印以人类可以理解的格式输出 (例如，使用 454M 而不是 454279954) \\3. 文件以最近访问顺序排序 \\4. 以彩色文本显示输出结果}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.2}编写两个 bash 函数 marco 和 polo 执行下面的操作。 每当你执行 marco 时，当前的工作目录应当以某种形式保存，当执行 polo 时，无论现在处在什么目录下，都应当 cd 回到当时执行 marco 的目录}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.3}假设您有一个命令，它很少出错。因此为了在出错时能够对其进行调试，需要花费大量的时间重现错误并捕获输出。 编写一段 bash 脚本，运行如下的脚本直到它出错，将它的标准输出和标准错误流记录到文件，并在最后输出所有内容。 加分项：报告脚本在失败前共运行了多少次。}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.4}编写一个命令，它可以递归地查找文件夹中所有的 HTML 文件，并将它们压缩成 zip 文件。注意，即使文件名中包含空格，您的命令也应该能够正确执行}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.5}编写一个命令或脚本递归的查找文件夹中最近使用的文件。}{13}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}实验中遇到的问题与解决方法}{14}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}想用man指令查看相关语句含义时，出现该指令无效的提示}{14}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}在进行课堂练习4创建文件并对文件做出相关操作时，执行find命令时显示无法找到相关文件}{14}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}实例练习}{14}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}查看当前所在路径}{14}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}创建脚本文件}{15}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}运行脚本文件}{15}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}打印}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}统计当前目录下的文件数目}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}按时间戳备份文件}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}在当前目录及其子目录中删除空的子目录。}{16}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.8}进程监控与重启}{17}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.9}定时执行任务}{18}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.10}文件内容替换}{18}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.11}批量重命名文件}{18}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.12}查找并删除指定名称的文件}{19}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.13}检查网络连接}{19}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.14}打开并保存文件}{20}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.15}文本编辑}{20}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.16}移动光标}{21}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.17}复制和粘贴}{21}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.18}设置行号}{22}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.19}分割窗口}{22}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.20}多文件编辑}{24}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}实验收获与感悟}{25}{}\protected@file@percent }
+\gdef \@abspage@last{26}
